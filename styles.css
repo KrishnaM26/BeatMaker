@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: auto;
+    width: auto;
+
+}
+
+h1{
+    font-size: 5rem;
+    margin: 0;
+    text-align: center;
+
+}
+
+input{
+    margin: 1rem 0.5rem;
+    
+}
+
+#sampler{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.sampler-flex-item{
+    text-align: center;
+    flex:1 0 0;
+}
+
+.sampler-flex-item:first-child{
+    flex:1 0 100%;
+}
+
+.master-controls{
+    text-align: center;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+    height: auto;
+    width: auto;
+    border: 10px darkgrey ridge;
+    background-color: lightgrey;
+
+}
+
+.master-controls h3{
+    font-size: 3rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+    margin: 0.5rem;
+}
+
+.master-controls p{
+    margin: 1.5rem 0rem 0rem 0rem;
+}
+
+input[type=button]{
+    height: 2rem;
+    width: 4rem;
+}
+
+
+
+.sampler-body{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px 30px;
+    width: 100%;
+    justify-content: center;
+  
+    
+
+}
+
+.pad-container{
+    text-align: center;
+    margin: 15px 15px;
+}
+
+.pad{
+    background-color: blue;
+    border: 10px black solid;
+    height: 100px;
+    width: 100px;
+  
+
+
+}
+
+.pad:hover{
+    background-color: rgba(0, 0, 255, 0.407);
+    border: 10px black solid;
+    height: 100px;
+    width: 100px;
+
+}
+
+.pad p{
+    color: white;
+    float: left;
+    margin: 10px;
+    padding: auto;
+}
+
+#pad-0{
+    grid-column-start: 3;
+    grid-column-end: 2;
+    
+}
+
+.audio-input{
+    text-align: center;
+    display: inline-block;
+    margin: 0.5rem 0 0 0;
+    padding-left: 3rem;
+}

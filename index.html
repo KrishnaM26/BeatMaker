@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="styles.css">
+    <title>Beat Maker</title>
+</head>
+
+<body>
+    <div id="sampler">
+        <div class="sampler-flex-item">
+            <h1>KM-404</h1>
+            <p>Krishna Mehta</p>
+        </div>
+        <div class="sampler-flex-item">
+            <section class="master-controls">
+                <h3>Load Sample</h3>
+                <input type="file" class="audio-input" id="in-audio" accept="audio/*" />
+                <br>
+                <p>Key #:</p>
+                <input type="radio" id="input-1" name="key"  value="1">
+                <label for="input-1">1</label>
+                <input type="radio" id="input-2" name="key"  value="2">
+                <label for="input-2">2</label>
+                <input type="radio" id="input-3" name="key"  value="3">
+                <label for="input-3">3</label>
+                <input type="radio" id="input-4" name="key"  value="4">
+                <label for="input-4">4</label>
+                <input type="radio" id="input-5" name="key"  value="5">
+                <label for="input-5">5</label>
+                <br>
+                <input type="radio" id="input-6" name="key"  value="6">
+                <label for="input-6">6</label>
+                <input type="radio" id="input-7" name="key"  value="7">
+                <label for="input-7">7</label>
+                <input type="radio" id="input-8" name="key"  value="8">
+                <label for="input-8">8</label>
+                <input type="radio" id="input-9" name="key"  value="9">
+                <label for="input-9">9</label>
+                <input type="radio" id="input-0" name="key"  value="0">
+                <label for="input-0">0</label>
+                <br>
+                <input type="button" id="loadbtn" value="Load" />
+
+            </section> 
+        </div>
+        <div class="sampler-flex-item">
+            <div class="sampler-body">
+                <div class="pad-container">
+                    <div class="pad" id="p1">
+                        <p>1</p>
+                        <audio src="samples/test 1/test1.wav" type="audio/*" id="audio1"></audio>
+                    </div>
+                    
+                </div>
+                <div class="pad-container">
+                    <div class="pad" id="p2">
+                        <p>2</p>
+                        <audio src="samples/test 1/test2.wav" type="audio/*" id="audio2"></audio>
+                    </div>
+                   
+                   
+                </div>
+                <div class="pad-container">
+                    <div class="pad" id="p3">
+                        <p>3</p>
+                        <audio src="samples/test 1/test3.wav" type="audio/*" id="audio3"></audio>
+                    </div>
+                   
+                </div>
+                <div class="pad-container">
+                    <div class="pad" id="p4">
+                        <p>4</p>
+                        <audio src="samples/test 1/test4.wav" type="audio/*" id="audio4"></audio>
+                    </div>
+                   
+               
+                </div>
+                <div class="pad-container">
+                    <div class="pad" id="p5">
+                        <p>5</p>
+                        <audio src="samples/vocals/Cool Vox.wav" type="audio/*" id="audio5"></audio>
+                    </div>
+                  
+                </div>
+                <div class="pad-container">
+                    <div class="pad" id="p6">
+                        <p>6</p>
+                        <audio src="samples/test 1/test1.wav" type="audio/*" id="audio6"></audio>
+                    </div>
+                   
+    
+                </div>
+                <div class="pad-container">
+                    <div class="pad" id="p7">
+                        <p>7</p>
+                        <audio src="samples/test 1/test1.wav" type="audio/*" id="audio7"></audio>
+                    </div>
+
+                </div>
+                <div class="pad-container">
+                    <div class="pad" id="p8">
+                        <p>8</p>
+                        <audio src="samples/test 1/test1.wav" type="audio/*" id="audio8"></audio>
+                    </div>
+                
+ 
+                </div>
+                <div class="pad-container">
+                    <div class="pad" id="p9">
+                        <p>9</p>
+                        <audio src="samples/test 1/test1.wav" type="audio/*" id="audio9"></audio>
+                    </div>
+                   
+
+                </div>
+                <div class="pad-container" id="pad-0">
+                    <div class="pad" id="p0">
+                        <p>0</p>
+                        <audio src="samples/test 1/test1.wav" type="audio/*" id="audio0"></audio>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="sampler-flex-item"></div>
+    </div>
+
+</body>
+<script src="jsbeatmaker.js"></script>
+</html>
