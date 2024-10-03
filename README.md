@@ -1,2 +1,2 @@
 # BeatMaker
-Create beats or music with this sampler/drum machine
+Create beats or music with this simplistic MPC sampler/drum machine
